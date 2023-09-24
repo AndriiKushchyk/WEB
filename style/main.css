@@ -1,0 +1,258 @@
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
+	background-color: rgb(32, 32, 32);
+}
+.bb{
+	border-style: solid;
+	border-width: 1px;
+	border-color: red;
+}
+																	/**ПОЧАТОК КОНТАКТНОЇ ІНФОРМАЦІЇ***/
+.header-contact{
+	background-color: rgb(32, 32, 32);
+	margin: 0;
+	padding: 0;
+	height: 3em;
+}
+.header-contact div{
+	padding-top: 0.75em;
+	height: 100%;
+}
+.header-contact a{
+	font-size: 15px;
+	text-decoration: none;
+	color: #acacac;
+}
+.header-contact a:hover{
+	color: #fff;
+}
+.header-contact p{
+	color: #acacac;
+}
+																	/***КІНЕЦЬ КОНТАКТНОЇ ІНФОРМАЦІЇ***/
+
+																	/***ПОЧАТОК НАВІГАЦІЙНОЇ ПАНЕЛІ***/
+.header-navbar{
+	background-color: #fff;
+	border: none;
+	margin: 0;
+	padding: 0;
+	border-radius: 0;
+}
+.nav-style a{
+	color: rgb(113, 113, 113);
+}
+.nav-style a:hover{
+	color: rgb(0, 0, 0);
+}
+.active a{
+	background-color: rgb(32, 32, 32);
+	color: #fff;
+}
+																	/***КІНЕЦЬ НАВІГАЦІЙНОЇ ПАНЕЛІ***/
+
+																	/***ПОЧАТОК СЕКЦІЇ -ХТО МИ ТАКІ?-***/
+.congratulations{
+	display: block;
+	margin-top: 30px; margin-left:0;
+	display: flex;
+	align-items: center;
+}
+.congratulations-container-img{
+	margin: 0; padding: 0;
+}
+.congratulations-container-img img{
+	width: 100%;
+}
+.congratulations-container-text{
+	line-height: 1.5em; 
+	color: #acacac; 
+	margin: 0;
+}
+.button {
+	background-color: rgb(32, 32, 32);
+	border: 2px solid #acacac;
+	padding: 10px 20px;
+	text-align: center;
+	color: #acacac;;
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+	margin: 2em auto;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+.button:hover{
+	background-color: #acacac;
+	color: black;
+}
+																	/***КІНЕЦЬ СЕКЦІЇ -ХТО МИ ТАКІ?-***/
+
+																	/***ПОЧАТОК СЕКЦІЇ -КОМАНДА КЕРУЮЧИХ-***/
+.our-team{
+	margin-top: 2em;
+	background-color: #fff;
+}
+.our-team-text{
+	margin-top: 2%;
+	font-size: 20px;
+}
+.our-team-text p{
+	text-align: center;
+}
+.our-team--container-img{
+	display: inline-block;
+	padding: 2em;
+}
+.our-team--container-img img{
+	width: 100%;
+}
+.team-inscription{
+	text-align: center;
+	font-size: 18px;
+	margin-top: 6%;
+	margin-bottom: 2%;
+}
+.team-inscription-child{
+	text-align: center;
+	font-size: 15px;
+	color: #000;
+}
+.team-quotes{
+	color: #636363;
+	text-align:justify;
+	text-align-last: center;
+	font-size: 14px;
+}
+																	/***КІНЕЦЬ СЕКЦІЇ -КОМАНДА КЕРУЮЧИХ-***/
+
+																	/***ПОЧАТОК СЕКЦІЇ -ЦИФРОВИЙ ГЛОБУС-***/
+.globe-num{
+	background-color: #fff;
+	padding-bottom: 5em;
+}
+.globe-num-text{
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 2em;
+	margin-top: 3em;
+}
+.globe-num-fact{
+	padding-bottom: 22%;
+}
+.globe-num-fact-main{
+	font-size: 20px;
+	text-align: center;
+	margin: 0, 0, 2%, 0;
+}
+.globe-num-fact-child{
+	font-size: 17px;
+	text-align: center;
+	margin: 0, 0, 2%, 0;
+}
+.globe-num-fact-link{
+	font-size: 16px;
+	margin-top: 10%;
+}
+.globe-num-fact-link a{
+	text-decoration: none;
+	color: rgb(113, 113, 113);
+	transition-duration: 0.2s;
+}
+.globe-num-fact-link a:hover{
+	text-decoration: none;
+	color: rgb(32, 32, 32);
+}
+.globe-num-logo{
+	margin-top: 6%;
+}
+.globe-num-logo img{
+	width: 100%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.globe-num-container div{
+	margin-left: 20%;
+}
+.globe-num-container--text-main{
+	font-size: 40px;
+	text-align: center;
+	margin: 0;
+}
+.globe-num-container--text-child{
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 30%;
+}
+																	/***КІНЕЦЬ СЕКЦІЇ -КОМАНДА КЕРУЮЧИХ-***/
+
+																	/***ПОЧАТОК СЕКЦІЇ -ВІДЕО ПРО НАС-***/
+.video_aboutUs{
+	padding: 0;
+	background-color: #fff;
+	height: 60em;
+	width: 100%;
+}
+.video_aboutUs-header{
+	background-color: rgb(32, 32, 32);
+	height: 50%;
+	width: 100%;
+	border-radius: 0 0 100% 100%;
+}
+.video_aboutUs-header div{
+	text-align: center;
+	color: #acacac;
+	margin-top: 7%;
+	font-size: 30px;
+}
+.video_aboutUs iframe{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -22%;
+}
+																	/***КІНЕЦЬ СЕКЦІЇ -ВІДЕО ПРО НАС-***/
+
+																	/***ПОЧАТОК ФУТЕРА***/
+.footer-main {
+	padding-top: 5%;
+}
+.footer-contact{
+	height: 4em;
+}
+.footer-contact p{
+	font-size: 14px;
+	color: rgb(113, 113, 113);
+}
+.footer-contact p a{
+	text-decoration: none;
+	color: rgb(113, 113, 113);
+}
+.footer-contact p a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.footer--social-icon{
+	padding-top: 1em;
+	height: 4em;
+	text-align: center;
+}
+.footer--social-icon a{
+	margin: 3%;
+	color: rgb(113, 113, 113);
+}
+.footer--social-icon a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.footer--social-icon a svg{
+	width: 3em;
+}
+hr.bored-hr{
+	border-top: 1px solid rgb(113, 113, 113);
+	width: 96%;
+	margin-top: 3%;
+}
+																	/***КІНЕЦЬ ФУТЕРА***/
